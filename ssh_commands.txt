@@ -1,0 +1,8 @@
+# sample config file
+# Personal account
+Host github.com-personal
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_personal
+
+ssh-keygen -t rsa -b 4096 -C "akki.ss22x25@gmail.com" -f ~/.ssh/id_rsa_personal
