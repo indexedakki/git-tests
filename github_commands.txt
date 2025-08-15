@@ -1,1 +1,6 @@
-git remote set-url origin git@github.com-personal:indexedakki/git-tests.git
+1. git remote add origin https://github.com/indexedakki/git-tests.git
+
+2. git remote set-url origin git@github.com-personal:indexedakki/git-tests.git
+
+# Using no edit commit
+git commit --amend --no-edit
