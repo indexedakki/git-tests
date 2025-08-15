@@ -4,3 +4,19 @@
 
 # Using no edit commit
 git commit --amend --no-edit
+git commit --amend -m "New message"
+
+# To Bring your origin master behind, suppose your master branch (local) is much behind origin master (remote)
+git push --force-with-lease origin master ⚠️
+
+git push origin master 
+Otherwise, it will give git pull error
+
+Reset commands
+git reset --soft HEAD~1 
+or 
+git reset --soft <commit_id>
+Keeps changes Staged
+
+git reset --hard <commit_id> ⚠️
+Deletes all changes 
